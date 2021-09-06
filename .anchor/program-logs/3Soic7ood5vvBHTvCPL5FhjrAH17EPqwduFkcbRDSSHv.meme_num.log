@@ -1,0 +1,19 @@
+Streaming transaction logs mentioning 3Soic7ood5vvBHTvCPL5FhjrAH17EPqwduFkcbRDSSHv. Confirmed commitment
+Transaction executed in slot 79024573:
+  Signature: 4DGVQfCzUFVnGYwD35V8MN61DnLhyXpU4g4HEUNHKuL4fntQ365VZyyKLj7YTpX2usukrrrJZUqqAVCHiErzQkGE
+  Status: Ok
+  Log Messages:
+    Program 11111111111111111111111111111111 invoke [1]
+    Program 11111111111111111111111111111111 success
+    Program 3Soic7ood5vvBHTvCPL5FhjrAH17EPqwduFkcbRDSSHv invoke [1]
+    Program 3Soic7ood5vvBHTvCPL5FhjrAH17EPqwduFkcbRDSSHv consumed 3302 of 200000 compute units
+    Program 3Soic7ood5vvBHTvCPL5FhjrAH17EPqwduFkcbRDSSHv success
+Transaction executed in slot 79024574:
+  Signature: 4DGVQfCzUFVnGYwD35V8MN61DnLhyXpU4g4HEUNHKuL4fntQ365VZyyKLj7YTpX2usukrrrJZUqqAVCHiErzQkGE
+  Status: Ok
+  Log Messages:
+    Program 11111111111111111111111111111111 invoke [1]
+    Program 11111111111111111111111111111111 success
+    Program 3Soic7ood5vvBHTvCPL5FhjrAH17EPqwduFkcbRDSSHv invoke [1]
+    Program 3Soic7ood5vvBHTvCPL5FhjrAH17EPqwduFkcbRDSSHv consumed 3302 of 200000 compute units
+    Program 3Soic7ood5vvBHTvCPL5FhjrAH17EPqwduFkcbRDSSHv success

@@ -1,0 +1,6 @@
+[2021-09-06T03:17:31.534574000Z WARN  solana_core::validator] CUDA is disabled
+[2021-09-06T03:17:31.547768000Z INFO  solana_faucet::faucet] Faucet started. Listening on: 0.0.0.0:9900
+[2021-09-06T03:17:31.547786000Z INFO  solana_faucet::faucet] Faucet account address: 2AnU21ksCy6bpNm6caKPaF8v7coPRpw8ny2cAgU1GvWn
+[2021-09-06T03:17:31.570787000Z INFO  solana_ledger::blockstore] Maximum open file descriptors: 500000
+[2021-09-06T03:17:31.570803000Z INFO  solana_ledger::blockstore] Opening database at "test-ledger/rocksdb"
+[2021-09-06T03:17:31.802902000Z INFO  solana_ledger::blockstore] "test-ledger/rocksdb" open took 232ms

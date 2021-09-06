@@ -11,7 +11,7 @@ describe('meme-num', () => {
     const program = anchor.workspace.MemeNum;
 
     // ** Generates a keypair
-    const memeNumAccount = anchor.web3.Keypair.generate();
+    const memeNumAccount = await anchor.web3.Keypair.generate();
 
     // ** Initialize
     const tx = await program.rpc.initialize({
@@ -25,7 +25,8 @@ describe('meme-num', () => {
       signers: [memeNumAccount]
     });
 
-    const memeNumAccountData = await program.account.memeNumAccount(memeNumAccount.publicKey);
+    // ** Get Meme Account Number and assert == 420
+    const memeNumAccountData = await program.account.memeNumAccount.fetch(memeNumAccount.publicKey);
     assert(memeNumAccountData.memeNum.eq(new anchor.BN(420)));
   });
 });
