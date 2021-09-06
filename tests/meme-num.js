@@ -4,7 +4,7 @@ const assert = require('assert');
 describe('meme-num', () => {
 
   // ** Configure the client to use the local cluster.
-  anchor.setProvider(anchor.Provider);
+  anchor.setProvider(anchor.Provider.env());
 
   it('Is initialized!', async () => {
     // ** Load the MemeNum program
